@@ -9,7 +9,7 @@ def index():
 def unifran():
  return '<h2>Universidade de Franca</h2>'
 
-@app.route('/user/<name>')
+@app.route('/dashboard/<name>')
 def user(name):
  return f'<h1>Olá, {name}</h1>'
 
